@@ -1,0 +1,64 @@
+{
+  "document": "hostile-expiring.pdf",
+  "kind": "expiring",
+  "sha256": "d39b7c1c183f79641a94b1ea135b37c2156332137f986935961912f664f4d762",
+  "synthetic": true,
+  "expectedTerms": {
+    "insurerName": {
+      "value": "Gannet Point Insurance Ltd",
+      "sourcePage": 1,
+      "sourceQuote": "Insurer: Gannet Point Insurance Ltd",
+      "confidence": "high"
+    },
+    "policyNumber": {
+      "value": "GPI-PL-424242",
+      "sourcePage": 1,
+      "sourceQuote": "Policy number: GPI-PL-424242",
+      "confidence": "high"
+    },
+    "policyType": {
+      "value": "public_liability",
+      "sourcePage": 1,
+      "sourceQuote": "Policy type: Public Liability",
+      "confidence": "high"
+    },
+    "periodStart": {
+      "value": "2026-01-01",
+      "sourcePage": 1,
+      "sourceQuote": "Period start: 1 January 2026",
+      "confidence": "high"
+    },
+    "periodEnd": {
+      "value": "2026-12-31",
+      "sourcePage": 1,
+      "sourceQuote": "Period end: 31 December 2026",
+      "confidence": "high"
+    },
+    "annualPremium": {
+      "value": 4000,
+      "sourcePage": 1,
+      "sourceQuote": "Annual premium (excl. GST): NZD 4,000.00",
+      "confidence": "high"
+    },
+    "excess": {
+      "value": 1000,
+      "sourcePage": 1,
+      "sourceQuote": "Excess: NZD 1,000 each and every claim",
+      "confidence": "high"
+    },
+    "coverLimit": {
+      "value": 5000000,
+      "sourcePage": 1,
+      "sourceQuote": "Limit of indemnity: NZD 5,000,000 any one occurrence",
+      "confidence": "high"
+    },
+    "keyExclusions": [
+      {
+        "key": "pollution",
+        "title": "Pollution",
+        "summary": "Claims arising from pollutants are not covered.",
+        "sourcePage": 3
+      }
+    ]
+  }
+}

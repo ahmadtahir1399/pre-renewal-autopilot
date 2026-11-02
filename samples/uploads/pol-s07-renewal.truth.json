@@ -1,0 +1,76 @@
+{
+  "document": "pol-s07-renewal.pdf",
+  "kind": "renewal",
+  "sha256": "fe6b518075ac1ef2776a1403b1412bb41a134eba74d5097c7b4ee0fe3f02f214",
+  "synthetic": true,
+  "expectedTerms": {
+    "insurerName": {
+      "value": "Tarn and Fell Underwriting Ltd",
+      "sourcePage": 1,
+      "sourceQuote": "Insurer: Tarn and Fell Underwriting Ltd",
+      "confidence": "high"
+    },
+    "policyNumber": {
+      "value": "TFU-CP-110522",
+      "sourcePage": 1,
+      "sourceQuote": "Policy number: TFU-CP-110522",
+      "confidence": "high"
+    },
+    "policyType": {
+      "value": "commercial_property",
+      "sourcePage": 1,
+      "sourceQuote": "Policy type: Commercial Property",
+      "confidence": "high"
+    },
+    "periodStart": {
+      "value": "2027-01-23",
+      "sourcePage": 1,
+      "sourceQuote": "Period start: 23 January 2027",
+      "confidence": "high"
+    },
+    "periodEnd": {
+      "value": "2028-01-22",
+      "sourcePage": 1,
+      "sourceQuote": "Period end: 22 January 2028",
+      "confidence": "high"
+    },
+    "annualPremium": {
+      "value": 9600,
+      "sourcePage": 1,
+      "sourceQuote": "Annual premium (excl. GST): NZD 9,600.00",
+      "confidence": "high"
+    },
+    "excess": {
+      "value": 2500,
+      "sourcePage": 1,
+      "sourceQuote": "Excess: NZD 2,500 each and every claim",
+      "confidence": "high"
+    },
+    "coverLimit": {
+      "value": 3000000,
+      "sourcePage": 1,
+      "sourceQuote": "Sum insured: NZD 3,000,000",
+      "confidence": "high"
+    },
+    "keyExclusions": [
+      {
+        "key": "wear_and_tear",
+        "title": "Wear, tear and depreciation",
+        "summary": "Wear and tear from ordinary use is not covered.",
+        "sourcePage": 4
+      },
+      {
+        "key": "gradual_deterioration",
+        "title": "Slow-developing damage",
+        "summary": "Damage that develops gradually (rust, corrosion, rot, mould) is not covered.",
+        "sourcePage": 4
+      },
+      {
+        "key": "vacant_or_unoccupied_building",
+        "title": "Empty buildings",
+        "summary": "Loss to a building left vacant or unoccupied for more than 60 days is not covered.",
+        "sourcePage": 4
+      }
+    ]
+  }
+}

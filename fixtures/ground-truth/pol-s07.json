@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "S07",
+  "policyId": "pol-s07",
+  "description": "Renewal document missing. Expected: needs_attention. No pack.",
+  "referenceDate": "2026-10-19",
+  "expiryDate": "2027-01-22",
+  "daysToExpiry": 95,
+  "cycleKey": "pol-s07:2027-01-22",
+  "expectedSelection": {
+    "selected": true,
+    "skipReason": null
+  },
+  "documents": {
+    "expiring": {
+      "path": "fixtures/documents/pol-s07/expiring.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    },
+    "renewal": {
+      "path": null,
+      "exists": false,
+      "hasTextLayer": null
+    }
+  },
+  "expectedTerms": {
+    "expiring": {
+      "insurerName": {
+        "value": "Tarn and Fell Underwriting Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Tarn and Fell Underwriting Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "TFU-CP-110522",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: TFU-CP-110522",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "commercial_property",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Commercial Property",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2026-01-23",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 23 January 2026",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2027-01-22",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 22 January 2027",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 9600,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 9,600.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 2500,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 2,500 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 3000000,
+        "sourcePage": 1,
+        "sourceQuote": "Sum insured: NZD 3,000,000",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "wear_and_tear",
+          "title": "Wear, tear and depreciation",
+          "summary": "Wear and tear from ordinary use is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "gradual_deterioration",
+          "title": "Slow-developing damage",
+          "summary": "Damage that develops gradually (rust, corrosion, rot, mould) is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "vacant_or_unoccupied_building",
+          "title": "Empty buildings",
+          "summary": "Loss to a building left vacant or unoccupied for more than 60 days is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    },
+    "renewal": null
+  },
+  "expectedAttention": {
+    "reason": "renewal_document_missing",
+    "message": "The renewal offer document is missing for this cycle. A person must obtain it before a pack can be prepared."
+  },
+  "expectsPack": false,
+  "expectedDiffs": null,
+  "expectedFlags": null,
+  "expectedOverallRisk": null,
+  "expectedFinalStatus": "needs_attention",
+  "injectedInstruction": null
+}

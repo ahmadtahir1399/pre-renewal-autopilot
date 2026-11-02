@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "S11",
+  "policyId": "pol-s11",
+  "description": "Premium +14% (9,800 -> 11,172). Boundary: exactly 16 weeks. Expected: Selected. MEDIUM premium flag.",
+  "referenceDate": "2026-10-19",
+  "expiryDate": "2027-02-08",
+  "daysToExpiry": 112,
+  "cycleKey": "pol-s11:2027-02-08",
+  "expectedSelection": {
+    "selected": true,
+    "skipReason": null
+  },
+  "documents": {
+    "expiring": {
+      "path": "fixtures/documents/pol-s11/expiring.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    },
+    "renewal": {
+      "path": "fixtures/documents/pol-s11/renewal.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    }
+  },
+  "expectedTerms": {
+    "expiring": {
+      "insurerName": {
+        "value": "Tarn and Fell Underwriting Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Tarn and Fell Underwriting Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "TFU-CP-479527",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: TFU-CP-479527",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "commercial_property",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Commercial Property",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2026-02-09",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 9 February 2026",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2027-02-08",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 8 February 2027",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 9800,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 9,800.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 2500,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 2,500 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 2800000,
+        "sourcePage": 1,
+        "sourceQuote": "Sum insured: NZD 2,800,000",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "wear_and_tear",
+          "title": "Normal wear",
+          "summary": "Wear and tear from ordinary use is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "gradual_deterioration",
+          "title": "Slow-developing damage",
+          "summary": "Damage that develops gradually (rust, corrosion, rot, mould) is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "theft_unattended_premises",
+          "title": "Unattended premises",
+          "summary": "Theft while the premises are unattended is not covered unless there was forced entry.",
+          "sourcePage": 4
+        }
+      ]
+    },
+    "renewal": {
+      "insurerName": {
+        "value": "Tarn and Fell Underwriting Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Tarn and Fell Underwriting Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "TFU-CP-479527",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: TFU-CP-479527",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "commercial_property",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Commercial Property",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2027-02-09",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 9 February 2027",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2028-02-08",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 8 February 2028",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 11172,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 11,172.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 2500,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 2,500 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 2800000,
+        "sourcePage": 1,
+        "sourceQuote": "Sum insured: NZD 2,800,000",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "wear_and_tear",
+          "title": "Normal wear",
+          "summary": "Wear and tear from ordinary use is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "gradual_deterioration",
+          "title": "Slow-developing damage",
+          "summary": "Damage that develops gradually (rust, corrosion, rot, mould) is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "theft_unattended_premises",
+          "title": "Unattended premises",
+          "summary": "Theft while the premises are unattended is not covered unless there was forced entry.",
+          "sourcePage": 4
+        }
+      ]
+    }
+  },
+  "expectedAttention": null,
+  "expectsPack": true,
+  "expectedDiffs": [
+    {
+      "field": "annualPremium",
+      "expiring": 9800,
+      "renewal": 11172,
+      "change": "increased",
+      "severity": "medium",
+      "facts": "Annual premium increased from NZD 9,800.00 to NZD 11,172.00 (+NZD 1,372.00, +14.0%).",
+      "expiringPage": 1,
+      "renewalPage": 1
+    }
+  ],
+  "expectedFlags": [
+    {
+      "field": "annualPremium",
+      "severity": "medium",
+      "message": "Annual premium increased from NZD 9,800.00 to NZD 11,172.00 (+NZD 1,372.00, +14.0%)."
+    }
+  ],
+  "expectedOverallRisk": "medium",
+  "expectedFinalStatus": "in_review",
+  "injectedInstruction": null
+}

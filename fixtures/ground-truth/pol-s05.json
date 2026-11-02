@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "S05",
+  "policyId": "pol-s05",
+  "description": "Excess 1,000 -> 5,000. Expected: MEDIUM flag: excess increased.",
+  "referenceDate": "2026-10-19",
+  "expiryDate": "2027-01-18",
+  "daysToExpiry": 91,
+  "cycleKey": "pol-s05:2027-01-18",
+  "expectedSelection": {
+    "selected": true,
+    "skipReason": null
+  },
+  "documents": {
+    "expiring": {
+      "path": "fixtures/documents/pol-s05/expiring.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    },
+    "renewal": {
+      "path": "fixtures/documents/pol-s05/renewal.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    }
+  },
+  "expectedTerms": {
+    "expiring": {
+      "insurerName": {
+        "value": "Bellbird Mutual Assurance Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Bellbird Mutual Assurance Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "BMA-PL-474553",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: BMA-PL-474553",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "public_liability",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Public Liability",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2026-01-19",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 19 January 2026",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2027-01-18",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 18 January 2027",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 4750,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 4,750.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 1000,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 1,000 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 5000000,
+        "sourcePage": 1,
+        "sourceQuote": "Limit of indemnity: NZD 5,000,000 any one occurrence",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "pollution",
+          "title": "Contamination",
+          "summary": "Liability for pollution or contamination is not covered unless it is sudden and accidental.",
+          "sourcePage": 4
+        },
+        {
+          "key": "contractual_liability",
+          "title": "Contract terms",
+          "summary": "Liability accepted under a contract, beyond legal liability, is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "professional_advice",
+          "title": "Professional advice",
+          "summary": "Liability arising from professional advice or design is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "cyber_event",
+          "title": "Cyber events",
+          "summary": "Loss caused by a cyber event or damage to electronic data is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    },
+    "renewal": {
+      "insurerName": {
+        "value": "Bellbird Mutual Assurance Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Bellbird Mutual Assurance Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "BMA-PL-474553",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: BMA-PL-474553",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "public_liability",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Public Liability",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2027-01-19",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 19 January 2027",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2028-01-18",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 18 January 2028",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 4750,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 4,750.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 5000,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 5,000 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 5000000,
+        "sourcePage": 1,
+        "sourceQuote": "Limit of indemnity: NZD 5,000,000 any one occurrence",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "pollution",
+          "title": "Contamination",
+          "summary": "Liability for pollution or contamination is not covered unless it is sudden and accidental.",
+          "sourcePage": 4
+        },
+        {
+          "key": "contractual_liability",
+          "title": "Contract terms",
+          "summary": "Liability accepted under a contract, beyond legal liability, is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "professional_advice",
+          "title": "Professional advice",
+          "summary": "Liability arising from professional advice or design is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "cyber_event",
+          "title": "Cyber events",
+          "summary": "Loss caused by a cyber event or damage to electronic data is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    }
+  },
+  "expectedAttention": null,
+  "expectsPack": true,
+  "expectedDiffs": [
+    {
+      "field": "excess",
+      "expiring": 1000,
+      "renewal": 5000,
+      "change": "increased",
+      "severity": "medium",
+      "facts": "Excess increased from NZD 1,000 to NZD 5,000 (+NZD 4,000).",
+      "expiringPage": 1,
+      "renewalPage": 1
+    }
+  ],
+  "expectedFlags": [
+    {
+      "field": "excess",
+      "severity": "medium",
+      "message": "Excess increased from NZD 1,000 to NZD 5,000 (+NZD 4,000)."
+    }
+  ],
+  "expectedOverallRisk": "medium",
+  "expectedFinalStatus": "in_review",
+  "injectedInstruction": null
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "brk-01",
+    "name": "Alex Morrow",
+    "email": "alex.morrow@example.com",
+    "telegramChatId": "000000001"
+  },
+  {
+    "id": "brk-02",
+    "name": "Sam Takerei",
+    "email": "sam.takerei@example.com",
+    "telegramChatId": "000000002"
+  }
+]

@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "S09",
+  "policyId": "pol-s09",
+  "description": "No change. Expected: Not selected (outside window).",
+  "referenceDate": "2026-10-19",
+  "expiryDate": "2027-03-08",
+  "daysToExpiry": 140,
+  "cycleKey": "pol-s09:2027-03-08",
+  "expectedSelection": {
+    "selected": false,
+    "skipReason": "outside_window"
+  },
+  "documents": {
+    "expiring": {
+      "path": "fixtures/documents/pol-s09/expiring.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    },
+    "renewal": {
+      "path": "fixtures/documents/pol-s09/renewal.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    }
+  },
+  "expectedTerms": {
+    "expiring": {
+      "insurerName": {
+        "value": "Bellbird Mutual Assurance Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Bellbird Mutual Assurance Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "BMA-CP-774031",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: BMA-CP-774031",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "commercial_property",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Commercial Property",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2026-03-09",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 9 March 2026",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2027-03-08",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 8 March 2027",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 13750,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 13,750.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 2500,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 2,500 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 5500000,
+        "sourcePage": 1,
+        "sourceQuote": "Sum insured: NZD 5,500,000",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "flood",
+          "title": "Flood and rising water",
+          "summary": "Loss or damage caused by flood or rising water is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "wear_and_tear",
+          "title": "Normal wear",
+          "summary": "Wear and tear from ordinary use is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "subsidence_landslip",
+          "title": "Landslip",
+          "summary": "Damage caused by subsidence, landslip or ground movement is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    },
+    "renewal": {
+      "insurerName": {
+        "value": "Bellbird Mutual Assurance Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Bellbird Mutual Assurance Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "BMA-CP-774031",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: BMA-CP-774031",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "commercial_property",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Commercial Property",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2027-03-09",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 9 March 2027",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2028-03-08",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 8 March 2028",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 13750,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 13,750.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 2500,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 2,500 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 5500000,
+        "sourcePage": 1,
+        "sourceQuote": "Sum insured: NZD 5,500,000",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "flood",
+          "title": "Flood and rising water",
+          "summary": "Loss or damage caused by flood or rising water is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "wear_and_tear",
+          "title": "Normal wear",
+          "summary": "Wear and tear from ordinary use is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "subsidence_landslip",
+          "title": "Landslip",
+          "summary": "Damage caused by subsidence, landslip or ground movement is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    }
+  },
+  "expectedAttention": null,
+  "expectsPack": false,
+  "expectedDiffs": null,
+  "expectedFlags": null,
+  "expectedOverallRisk": null,
+  "expectedFinalStatus": "not_started",
+  "injectedInstruction": null
+}

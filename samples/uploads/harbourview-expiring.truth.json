@@ -1,0 +1,70 @@
+{
+  "document": "harbourview-expiring.pdf",
+  "kind": "expiring",
+  "sha256": "680e5dd599bd941771f3b16a1f6f845be23e9bb802063a3215fe3c09e222c834",
+  "synthetic": true,
+  "expectedTerms": {
+    "insurerName": {
+      "value": "Larchmont Harbour Insurance Ltd",
+      "sourcePage": 1,
+      "sourceQuote": "Insurer: Larchmont Harbour Insurance Ltd",
+      "confidence": "high"
+    },
+    "policyNumber": {
+      "value": "LHI-PL-973556",
+      "sourcePage": 1,
+      "sourceQuote": "Policy number: LHI-PL-973556",
+      "confidence": "high"
+    },
+    "policyType": {
+      "value": "public_liability",
+      "sourcePage": 1,
+      "sourceQuote": "Policy type: Public Liability",
+      "confidence": "high"
+    },
+    "periodStart": {
+      "value": "2025-12-04",
+      "sourcePage": 1,
+      "sourceQuote": "Period start: 4 December 2025",
+      "confidence": "high"
+    },
+    "periodEnd": {
+      "value": "2026-12-03",
+      "sourcePage": 1,
+      "sourceQuote": "Period end: 3 December 2026",
+      "confidence": "high"
+    },
+    "annualPremium": {
+      "value": 3200,
+      "sourcePage": 1,
+      "sourceQuote": "Annual premium (excl. GST): NZD 3,200.00",
+      "confidence": "high"
+    },
+    "excess": {
+      "value": 500,
+      "sourcePage": 1,
+      "sourceQuote": "Excess: NZD 500 each and every claim",
+      "confidence": "high"
+    },
+    "coverLimit": {
+      "value": 2000000,
+      "sourcePage": 1,
+      "sourceQuote": "Limit of indemnity: NZD 2,000,000 any one occurrence",
+      "confidence": "high"
+    },
+    "keyExclusions": [
+      {
+        "key": "pollution",
+        "title": "Pollution",
+        "summary": "Liability for pollution or contamination is not covered unless it is sudden and accidental.",
+        "sourcePage": 4
+      },
+      {
+        "key": "contractual_liability",
+        "title": "Liability assumed by agreement",
+        "summary": "Liability accepted under a contract, beyond legal liability, is not covered.",
+        "sourcePage": 4
+      }
+    ]
+  }
+}

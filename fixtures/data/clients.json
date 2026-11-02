@@ -1,0 +1,32 @@
+[
+  {
+    "id": "cli-01",
+    "name": "Ironbark Joinery Ltd",
+    "contactName": "Hana Whitcombe",
+    "contactEmail": "hana.whitcombe@example.com"
+  },
+  {
+    "id": "cli-02",
+    "name": "Saltwind Cafe Group Ltd",
+    "contactName": "Tomas Ferreira",
+    "contactEmail": "tomas.ferreira@example.com"
+  },
+  {
+    "id": "cli-03",
+    "name": "Bluegum Freight Services Ltd",
+    "contactName": "Priya Ranganathan",
+    "contactEmail": "priya.ranganathan@example.com"
+  },
+  {
+    "id": "cli-04",
+    "name": "Fernvale Veterinary Clinic Ltd",
+    "contactName": "Callum McAlister",
+    "contactEmail": "callum.mcalister@example.com"
+  },
+  {
+    "id": "cli-05",
+    "name": "Quarry Lane Print Works Ltd",
+    "contactName": "Mereana Doyle",
+    "contactEmail": "mereana.doyle@example.com"
+  }
+]

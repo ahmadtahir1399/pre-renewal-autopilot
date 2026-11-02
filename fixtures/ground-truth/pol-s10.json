@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "S10",
+  "policyId": "pol-s10",
+  "description": "Premium -3% (18,500 -> 17,945). Boundary: exactly 12 weeks. Expected: Selected. Pack, no flags.",
+  "referenceDate": "2026-10-19",
+  "expiryDate": "2027-01-11",
+  "daysToExpiry": 84,
+  "cycleKey": "pol-s10:2027-01-11",
+  "expectedSelection": {
+    "selected": true,
+    "skipReason": null
+  },
+  "documents": {
+    "expiring": {
+      "path": "fixtures/documents/pol-s10/expiring.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    },
+    "renewal": {
+      "path": "fixtures/documents/pol-s10/renewal.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    }
+  },
+  "expectedTerms": {
+    "expiring": {
+      "insurerName": {
+        "value": "Copperleaf General Insurance Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Copperleaf General Insurance Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "CGI-BI-832400",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: CGI-BI-832400",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "business_interruption",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Business Interruption",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2026-01-12",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 12 January 2026",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2027-01-11",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 11 January 2027",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 18500,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 18,500.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 5000,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 5,000 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 4000000,
+        "sourcePage": 1,
+        "sourceQuote": "Sum insured (gross profit): NZD 4,000,000",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "gradual_deterioration",
+          "title": "Progressive decay",
+          "summary": "Damage that develops gradually (rust, corrosion, rot, mould) is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "cyber_event",
+          "title": "Computer virus and hacking",
+          "summary": "Loss caused by a cyber event or damage to electronic data is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "pollution",
+          "title": "Pollution",
+          "summary": "Liability for pollution or contamination is not covered unless it is sudden and accidental.",
+          "sourcePage": 4
+        },
+        {
+          "key": "terrorism",
+          "title": "Terrorist acts",
+          "summary": "Loss caused by an act of terrorism is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    },
+    "renewal": {
+      "insurerName": {
+        "value": "Copperleaf General Insurance Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Copperleaf General Insurance Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "CGI-BI-832400",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: CGI-BI-832400",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "business_interruption",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Business Interruption",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2027-01-12",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 12 January 2027",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2028-01-11",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 11 January 2028",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 17945,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 17,945.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 5000,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 5,000 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 4000000,
+        "sourcePage": 1,
+        "sourceQuote": "Sum insured (gross profit): NZD 4,000,000",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "gradual_deterioration",
+          "title": "Progressive decay",
+          "summary": "Damage that develops gradually (rust, corrosion, rot, mould) is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "cyber_event",
+          "title": "Computer virus and hacking",
+          "summary": "Loss caused by a cyber event or damage to electronic data is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "pollution",
+          "title": "Pollution",
+          "summary": "Liability for pollution or contamination is not covered unless it is sudden and accidental.",
+          "sourcePage": 4
+        },
+        {
+          "key": "terrorism",
+          "title": "Terrorist acts",
+          "summary": "Loss caused by an act of terrorism is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    }
+  },
+  "expectedAttention": null,
+  "expectsPack": true,
+  "expectedDiffs": [
+    {
+      "field": "annualPremium",
+      "expiring": 18500,
+      "renewal": 17945,
+      "change": "decreased",
+      "severity": "info",
+      "facts": "Annual premium decreased from NZD 18,500.00 to NZD 17,945.00 (-NZD 555.00, -3.0%).",
+      "expiringPage": 1,
+      "renewalPage": 1
+    }
+  ],
+  "expectedFlags": [],
+  "expectedOverallRisk": "info",
+  "expectedFinalStatus": "in_review",
+  "injectedInstruction": null
+}

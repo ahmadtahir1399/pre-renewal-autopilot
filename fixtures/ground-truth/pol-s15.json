@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "S15",
+  "policyId": "pol-s15",
+  "description": "Premium +27% (21,000 -> 26,670), limit increased (8,000,000 -> 9,500,000), one exclusion removed. Expected: HIGH premium flag. Limit and removal are info only.",
+  "referenceDate": "2026-10-19",
+  "expiryDate": "2027-02-06",
+  "daysToExpiry": 110,
+  "cycleKey": "pol-s15:2027-02-06",
+  "expectedSelection": {
+    "selected": true,
+    "skipReason": null
+  },
+  "documents": {
+    "expiring": {
+      "path": "fixtures/documents/pol-s15/expiring.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    },
+    "renewal": {
+      "path": "fixtures/documents/pol-s15/renewal.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    }
+  },
+  "expectedTerms": {
+    "expiring": {
+      "insurerName": {
+        "value": "Tarn and Fell Underwriting Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Tarn and Fell Underwriting Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "TFU-CP-110707",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: TFU-CP-110707",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "commercial_property",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Commercial Property",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2026-02-07",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 7 February 2026",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2027-02-06",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 6 February 2027",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 21000,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 21,000.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 5000,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 5,000 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 8000000,
+        "sourcePage": 1,
+        "sourceQuote": "Sum insured: NZD 8,000,000",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "wear_and_tear",
+          "title": "Normal wear",
+          "summary": "Wear and tear from ordinary use is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "gradual_deterioration",
+          "title": "Gradual deterioration",
+          "summary": "Damage that develops gradually (rust, corrosion, rot, mould) is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "vacant_or_unoccupied_building",
+          "title": "Vacant or unoccupied buildings",
+          "summary": "Loss to a building left vacant or unoccupied for more than 60 days is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "theft_unattended_premises",
+          "title": "Theft without forced entry",
+          "summary": "Theft while the premises are unattended is not covered unless there was forced entry.",
+          "sourcePage": 4
+        },
+        {
+          "key": "asbestos",
+          "title": "Asbestos",
+          "summary": "Loss or liability arising from asbestos is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "terrorism",
+          "title": "Acts of terrorism",
+          "summary": "Loss caused by an act of terrorism is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    },
+    "renewal": {
+      "insurerName": {
+        "value": "Tarn and Fell Underwriting Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Tarn and Fell Underwriting Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "TFU-CP-110707",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: TFU-CP-110707",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "commercial_property",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Commercial Property",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2027-02-07",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 7 February 2027",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2028-02-06",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 6 February 2028",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 26670,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 26,670.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 5000,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 5,000 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 9500000,
+        "sourcePage": 1,
+        "sourceQuote": "Sum insured: NZD 9,500,000",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "wear_and_tear",
+          "title": "Normal wear",
+          "summary": "Wear and tear from ordinary use is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "gradual_deterioration",
+          "title": "Gradual deterioration",
+          "summary": "Damage that develops gradually (rust, corrosion, rot, mould) is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "theft_unattended_premises",
+          "title": "Theft without forced entry",
+          "summary": "Theft while the premises are unattended is not covered unless there was forced entry.",
+          "sourcePage": 4
+        },
+        {
+          "key": "asbestos",
+          "title": "Asbestos",
+          "summary": "Loss or liability arising from asbestos is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "terrorism",
+          "title": "Acts of terrorism",
+          "summary": "Loss caused by an act of terrorism is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    }
+  },
+  "expectedAttention": null,
+  "expectsPack": true,
+  "expectedDiffs": [
+    {
+      "field": "annualPremium",
+      "expiring": 21000,
+      "renewal": 26670,
+      "change": "increased",
+      "severity": "high",
+      "facts": "Annual premium increased from NZD 21,000.00 to NZD 26,670.00 (+NZD 5,670.00, +27.0%).",
+      "expiringPage": 1,
+      "renewalPage": 1
+    },
+    {
+      "field": "coverLimit",
+      "expiring": 8000000,
+      "renewal": 9500000,
+      "change": "increased",
+      "severity": "info",
+      "facts": "Cover limit increased from NZD 8,000,000 to NZD 9,500,000 (+NZD 1,500,000, +18.8%).",
+      "expiringPage": 1,
+      "renewalPage": 1
+    },
+    {
+      "field": "exclusion:vacant_or_unoccupied_building",
+      "expiring": "vacant_or_unoccupied_building",
+      "renewal": null,
+      "change": "removed",
+      "severity": "info",
+      "facts": "Exclusion \"vacant_or_unoccupied_building\" removed in the renewal (was on expiring page 4: Vacant or unoccupied buildings).",
+      "expiringPage": 4
+    }
+  ],
+  "expectedFlags": [
+    {
+      "field": "annualPremium",
+      "severity": "high",
+      "message": "Annual premium increased from NZD 21,000.00 to NZD 26,670.00 (+NZD 5,670.00, +27.0%)."
+    }
+  ],
+  "expectedOverallRisk": "high",
+  "expectedFinalStatus": "in_review",
+  "injectedInstruction": null
+}

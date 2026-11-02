@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "S02",
+  "policyId": "pol-s02",
+  "description": "Cover limit 10,000,000 -> 5,000,000. Premium unchanged. Expected: HIGH flag: limit decreased.",
+  "referenceDate": "2026-10-19",
+  "expiryDate": "2027-01-25",
+  "daysToExpiry": 98,
+  "cycleKey": "pol-s02:2027-01-25",
+  "expectedSelection": {
+    "selected": true,
+    "skipReason": null
+  },
+  "documents": {
+    "expiring": {
+      "path": "fixtures/documents/pol-s02/expiring.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    },
+    "renewal": {
+      "path": "fixtures/documents/pol-s02/renewal.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    }
+  },
+  "expectedTerms": {
+    "expiring": {
+      "insurerName": {
+        "value": "Copperleaf General Insurance Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Copperleaf General Insurance Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "CGI-PL-991189",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: CGI-PL-991189",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "public_liability",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Public Liability",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2026-01-26",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 26 January 2026",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2027-01-25",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 25 January 2027",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 6850,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 6,850.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 1000,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 1,000 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 10000000,
+        "sourcePage": 1,
+        "sourceQuote": "Limit of indemnity: NZD 10,000,000 any one occurrence",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "pollution",
+          "title": "Contamination",
+          "summary": "Liability for pollution or contamination is not covered unless it is sudden and accidental.",
+          "sourcePage": 4
+        },
+        {
+          "key": "asbestos",
+          "title": "Asbestos-related claims",
+          "summary": "Loss or liability arising from asbestos is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "contractual_liability",
+          "title": "Liability assumed by agreement",
+          "summary": "Liability accepted under a contract, beyond legal liability, is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "professional_advice",
+          "title": "Professional services",
+          "summary": "Liability arising from professional advice or design is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    },
+    "renewal": {
+      "insurerName": {
+        "value": "Copperleaf General Insurance Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Copperleaf General Insurance Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "CGI-PL-991189",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: CGI-PL-991189",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "public_liability",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Public Liability",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2027-01-26",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 26 January 2027",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2028-01-25",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 25 January 2028",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 6850,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 6,850.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 1000,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 1,000 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 5000000,
+        "sourcePage": 1,
+        "sourceQuote": "Limit of indemnity: NZD 5,000,000 any one occurrence",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "pollution",
+          "title": "Contamination",
+          "summary": "Liability for pollution or contamination is not covered unless it is sudden and accidental.",
+          "sourcePage": 4
+        },
+        {
+          "key": "asbestos",
+          "title": "Asbestos-related claims",
+          "summary": "Loss or liability arising from asbestos is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "contractual_liability",
+          "title": "Liability assumed by agreement",
+          "summary": "Liability accepted under a contract, beyond legal liability, is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "professional_advice",
+          "title": "Professional services",
+          "summary": "Liability arising from professional advice or design is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    }
+  },
+  "expectedAttention": null,
+  "expectsPack": true,
+  "expectedDiffs": [
+    {
+      "field": "coverLimit",
+      "expiring": 10000000,
+      "renewal": 5000000,
+      "change": "decreased",
+      "severity": "high",
+      "facts": "Cover limit decreased from NZD 10,000,000 to NZD 5,000,000 (-NZD 5,000,000, -50.0%).",
+      "expiringPage": 1,
+      "renewalPage": 1
+    }
+  ],
+  "expectedFlags": [
+    {
+      "field": "coverLimit",
+      "severity": "high",
+      "message": "Cover limit decreased from NZD 10,000,000 to NZD 5,000,000 (-NZD 5,000,000, -50.0%)."
+    }
+  ],
+  "expectedOverallRisk": "high",
+  "expectedFinalStatus": "in_review",
+  "injectedInstruction": null
+}

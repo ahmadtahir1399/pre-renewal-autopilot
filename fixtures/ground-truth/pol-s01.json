@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "S01",
+  "policyId": "pol-s01",
+  "description": "Premium +6% (12,400 -> 13,144). Nothing else. Expected: Pack. Overall risk low.",
+  "referenceDate": "2026-10-19",
+  "expiryDate": "2027-01-17",
+  "daysToExpiry": 90,
+  "cycleKey": "pol-s01:2027-01-17",
+  "expectedSelection": {
+    "selected": true,
+    "skipReason": null
+  },
+  "documents": {
+    "expiring": {
+      "path": "fixtures/documents/pol-s01/expiring.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    },
+    "renewal": {
+      "path": "fixtures/documents/pol-s01/renewal.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    }
+  },
+  "expectedTerms": {
+    "expiring": {
+      "insurerName": {
+        "value": "Bellbird Mutual Assurance Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Bellbird Mutual Assurance Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "BMA-CP-823121",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: BMA-CP-823121",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "commercial_property",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Commercial Property",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2026-01-18",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 18 January 2026",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2027-01-17",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 17 January 2027",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 12400,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 12,400.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 2500,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 2,500 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 3800000,
+        "sourcePage": 1,
+        "sourceQuote": "Sum insured: NZD 3,800,000",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "wear_and_tear",
+          "title": "Wear, tear and depreciation",
+          "summary": "Wear and tear from ordinary use is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "gradual_deterioration",
+          "title": "Progressive decay",
+          "summary": "Damage that develops gradually (rust, corrosion, rot, mould) is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "theft_unattended_premises",
+          "title": "Unattended premises",
+          "summary": "Theft while the premises are unattended is not covered unless there was forced entry.",
+          "sourcePage": 4
+        },
+        {
+          "key": "subsidence_landslip",
+          "title": "Ground movement",
+          "summary": "Damage caused by subsidence, landslip or ground movement is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    },
+    "renewal": {
+      "insurerName": {
+        "value": "Bellbird Mutual Assurance Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Bellbird Mutual Assurance Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "BMA-CP-823121",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: BMA-CP-823121",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "commercial_property",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Commercial Property",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2027-01-18",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 18 January 2027",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2028-01-17",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 17 January 2028",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 13144,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 13,144.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 2500,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 2,500 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 3800000,
+        "sourcePage": 1,
+        "sourceQuote": "Sum insured: NZD 3,800,000",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "wear_and_tear",
+          "title": "Wear, tear and depreciation",
+          "summary": "Wear and tear from ordinary use is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "gradual_deterioration",
+          "title": "Progressive decay",
+          "summary": "Damage that develops gradually (rust, corrosion, rot, mould) is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "theft_unattended_premises",
+          "title": "Unattended premises",
+          "summary": "Theft while the premises are unattended is not covered unless there was forced entry.",
+          "sourcePage": 4
+        },
+        {
+          "key": "subsidence_landslip",
+          "title": "Ground movement",
+          "summary": "Damage caused by subsidence, landslip or ground movement is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    }
+  },
+  "expectedAttention": null,
+  "expectsPack": true,
+  "expectedDiffs": [
+    {
+      "field": "annualPremium",
+      "expiring": 12400,
+      "renewal": 13144,
+      "change": "increased",
+      "severity": "low",
+      "facts": "Annual premium increased from NZD 12,400.00 to NZD 13,144.00 (+NZD 744.00, +6.0%).",
+      "expiringPage": 1,
+      "renewalPage": 1
+    }
+  ],
+  "expectedFlags": [],
+  "expectedOverallRisk": "low",
+  "expectedFinalStatus": "in_review",
+  "injectedInstruction": null
+}

@@ -1,0 +1,3230 @@
+{
+  "header": {
+    "date": "2026-10-20",
+    "mode": "live",
+    "model": "gpt-5.4-nano-2026-03-17",
+    "promptVersion": "v1",
+    "compareRulesVersion": "r1",
+    "thresholds": {
+      "premiumMediumPct": 10,
+      "premiumHighPct": 25,
+      "windowMinDays": 84,
+      "windowMaxDays": 112
+    },
+    "repeats": 3,
+    "documents": 28,
+    "generatedBy": "scripts/evaluate.ts --mode live"
+  },
+  "syntheticData": true,
+  "caveat": "Fixtures written by the project author from templates; numbers measure this synthetic set only.",
+  "pricing": {
+    "model": "gpt-5.4-nano",
+    "currency": "USD (assumed; the page shows \"$\" without a code)",
+    "inputPerMillion": 0.2,
+    "cachedInputPerMillion": 0.02,
+    "outputPerMillion": 1.25,
+    "source": "Typed by the project author from OpenAI's pricing page, Standard tier, on 2026-10-19; listed for gpt-5.4-nano, not the dated snapshot."
+  },
+  "finalVersion": "v1",
+  "finalReason": "It is the only version measured.",
+  "rawFiles": [
+    "2026-10-20-live-v1-r1.json",
+    "2026-10-20-live-v1-r2.json",
+    "2026-10-20-live-v1-r3.json"
+  ],
+  "versions": [
+    {
+      "promptVersion": "v1",
+      "model": "gpt-5.4-nano-2026-03-17",
+      "repeats": [
+        {
+          "repeat": 1,
+          "documents": 28,
+          "documentsFailed": 0,
+          "fieldValue": {
+            "hit": 224,
+            "total": 224
+          },
+          "fieldPage": {
+            "hit": 224,
+            "total": 224
+          },
+          "quotePass": {
+            "hit": 224,
+            "total": 224
+          },
+          "lowOrNull": 0,
+          "mediumConfidence": 11,
+          "wrongHigh": 0,
+          "exclusionPrecision": {
+            "hit": 104,
+            "total": 104
+          },
+          "exclusionRecall": {
+            "hit": 104,
+            "total": 104
+          },
+          "exclusionPage": {
+            "hit": 104,
+            "total": 104
+          },
+          "diffPrecision": {
+            "hit": 10,
+            "total": 10
+          },
+          "diffRecall": {
+            "hit": 10,
+            "total": 10
+          },
+          "riskCorrect": {
+            "hit": 11,
+            "total": 11
+          },
+          "flagsExact": {
+            "hit": 11,
+            "total": 11
+          },
+          "selectionCorrect": {
+            "hit": 15,
+            "total": 15
+          },
+          "statusCorrect": {
+            "hit": 15,
+            "total": 15
+          },
+          "typedErrorChecks": {
+            "hit": 2,
+            "total": 2
+          },
+          "httpResponses": 28,
+          "validationRetries": 0,
+          "failedCalls": 0,
+          "rateLimited": 0,
+          "timeouts": 0,
+          "transportRetries": 0,
+          "inputTokens": 65117,
+          "outputTokens": 12744,
+          "cachedInputTokens": 0,
+          "documentMs": 119294,
+          "cost": 0.0289534
+        },
+        {
+          "repeat": 2,
+          "documents": 28,
+          "documentsFailed": 0,
+          "fieldValue": {
+            "hit": 224,
+            "total": 224
+          },
+          "fieldPage": {
+            "hit": 224,
+            "total": 224
+          },
+          "quotePass": {
+            "hit": 224,
+            "total": 224
+          },
+          "lowOrNull": 0,
+          "mediumConfidence": 15,
+          "wrongHigh": 0,
+          "exclusionPrecision": {
+            "hit": 104,
+            "total": 104
+          },
+          "exclusionRecall": {
+            "hit": 104,
+            "total": 104
+          },
+          "exclusionPage": {
+            "hit": 104,
+            "total": 104
+          },
+          "diffPrecision": {
+            "hit": 10,
+            "total": 10
+          },
+          "diffRecall": {
+            "hit": 10,
+            "total": 10
+          },
+          "riskCorrect": {
+            "hit": 11,
+            "total": 11
+          },
+          "flagsExact": {
+            "hit": 11,
+            "total": 11
+          },
+          "selectionCorrect": {
+            "hit": 15,
+            "total": 15
+          },
+          "statusCorrect": {
+            "hit": 15,
+            "total": 15
+          },
+          "typedErrorChecks": {
+            "hit": 2,
+            "total": 2
+          },
+          "httpResponses": 28,
+          "validationRetries": 0,
+          "failedCalls": 0,
+          "rateLimited": 0,
+          "timeouts": 0,
+          "transportRetries": 0,
+          "inputTokens": 65117,
+          "outputTokens": 12605,
+          "cachedInputTokens": 46592,
+          "documentMs": 112560,
+          "cost": 0.02039309
+        },
+        {
+          "repeat": 3,
+          "documents": 28,
+          "documentsFailed": 0,
+          "fieldValue": {
+            "hit": 224,
+            "total": 224
+          },
+          "fieldPage": {
+            "hit": 224,
+            "total": 224
+          },
+          "quotePass": {
+            "hit": 224,
+            "total": 224
+          },
+          "lowOrNull": 0,
+          "mediumConfidence": 10,
+          "wrongHigh": 0,
+          "exclusionPrecision": {
+            "hit": 104,
+            "total": 104
+          },
+          "exclusionRecall": {
+            "hit": 104,
+            "total": 104
+          },
+          "exclusionPage": {
+            "hit": 104,
+            "total": 104
+          },
+          "diffPrecision": {
+            "hit": 10,
+            "total": 10
+          },
+          "diffRecall": {
+            "hit": 10,
+            "total": 10
+          },
+          "riskCorrect": {
+            "hit": 11,
+            "total": 11
+          },
+          "flagsExact": {
+            "hit": 11,
+            "total": 11
+          },
+          "selectionCorrect": {
+            "hit": 15,
+            "total": 15
+          },
+          "statusCorrect": {
+            "hit": 15,
+            "total": 15
+          },
+          "typedErrorChecks": {
+            "hit": 2,
+            "total": 2
+          },
+          "httpResponses": 28,
+          "validationRetries": 0,
+          "failedCalls": 0,
+          "rateLimited": 0,
+          "timeouts": 0,
+          "transportRetries": 0,
+          "inputTokens": 65117,
+          "outputTokens": 12740,
+          "cachedInputTokens": 48384,
+          "documentMs": 113665,
+          "cost": 0.02023928
+        }
+      ],
+      "pooled": {
+        "repeat": "pooled",
+        "documents": 84,
+        "documentsFailed": 0,
+        "fieldValue": {
+          "hit": 672,
+          "total": 672
+        },
+        "fieldPage": {
+          "hit": 672,
+          "total": 672
+        },
+        "quotePass": {
+          "hit": 672,
+          "total": 672
+        },
+        "lowOrNull": 0,
+        "mediumConfidence": 36,
+        "wrongHigh": 0,
+        "exclusionPrecision": {
+          "hit": 312,
+          "total": 312
+        },
+        "exclusionRecall": {
+          "hit": 312,
+          "total": 312
+        },
+        "exclusionPage": {
+          "hit": 312,
+          "total": 312
+        },
+        "diffPrecision": {
+          "hit": 30,
+          "total": 30
+        },
+        "diffRecall": {
+          "hit": 30,
+          "total": 30
+        },
+        "riskCorrect": {
+          "hit": 33,
+          "total": 33
+        },
+        "flagsExact": {
+          "hit": 33,
+          "total": 33
+        },
+        "selectionCorrect": {
+          "hit": 45,
+          "total": 45
+        },
+        "statusCorrect": {
+          "hit": 45,
+          "total": 45
+        },
+        "typedErrorChecks": {
+          "hit": 6,
+          "total": 6
+        },
+        "httpResponses": 84,
+        "validationRetries": 0,
+        "failedCalls": 0,
+        "rateLimited": 0,
+        "timeouts": 0,
+        "transportRetries": 0,
+        "inputTokens": 195351,
+        "cachedInputTokens": 94976,
+        "outputTokens": 38089,
+        "documentMs": 345519,
+        "cost": 0.06958576999999999
+      },
+      "spread": {
+        "fieldValue": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "fieldPage": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "quotePass": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "exclusionPrecision": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "exclusionRecall": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "diffPrecision": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "diffRecall": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "riskCorrect": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "flagsExact": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        },
+        "statusCorrect": {
+          "mean": 1,
+          "min": 1,
+          "max": 1
+        }
+      },
+      "fields": [
+        {
+          "field": "insurerName",
+          "valuePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "valuePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "pagePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "pagePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "quotePassPooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "valueVariedDocs": 0,
+          "pageVariedDocs": 0,
+          "confidenceVariedDocs": 0
+        },
+        {
+          "field": "policyNumber",
+          "valuePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "valuePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "pagePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "pagePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "quotePassPooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "valueVariedDocs": 0,
+          "pageVariedDocs": 0,
+          "confidenceVariedDocs": 0
+        },
+        {
+          "field": "policyType",
+          "valuePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "valuePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "pagePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "pagePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "quotePassPooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "valueVariedDocs": 0,
+          "pageVariedDocs": 0,
+          "confidenceVariedDocs": 0
+        },
+        {
+          "field": "periodStart",
+          "valuePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "valuePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "pagePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "pagePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "quotePassPooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "valueVariedDocs": 0,
+          "pageVariedDocs": 0,
+          "confidenceVariedDocs": 9
+        },
+        {
+          "field": "periodEnd",
+          "valuePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "valuePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "pagePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "pagePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "quotePassPooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "valueVariedDocs": 0,
+          "pageVariedDocs": 0,
+          "confidenceVariedDocs": 9
+        },
+        {
+          "field": "annualPremium",
+          "valuePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "valuePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "pagePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "pagePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "quotePassPooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "valueVariedDocs": 0,
+          "pageVariedDocs": 0,
+          "confidenceVariedDocs": 6
+        },
+        {
+          "field": "excess",
+          "valuePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "valuePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "pagePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "pagePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "quotePassPooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "valueVariedDocs": 0,
+          "pageVariedDocs": 0,
+          "confidenceVariedDocs": 6
+        },
+        {
+          "field": "coverLimit",
+          "valuePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "valuePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "pagePerRepeat": [
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            },
+            {
+              "hit": 28,
+              "total": 28
+            }
+          ],
+          "pagePooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "quotePassPooled": {
+            "hit": 84,
+            "total": 84
+          },
+          "valueVariedDocs": 0,
+          "pageVariedDocs": 0,
+          "confidenceVariedDocs": 6
+        }
+      ],
+      "exclusionsByDocument": [
+        {
+          "policyId": "pol-s01",
+          "side": "expiring",
+          "expectedKeys": [
+            "gradual_deterioration",
+            "subsidence_landslip",
+            "theft_unattended_premises",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s01",
+          "side": "renewal",
+          "expectedKeys": [
+            "gradual_deterioration",
+            "subsidence_landslip",
+            "theft_unattended_premises",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s02",
+          "side": "expiring",
+          "expectedKeys": [
+            "asbestos",
+            "contractual_liability",
+            "pollution",
+            "professional_advice"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s02",
+          "side": "renewal",
+          "expectedKeys": [
+            "asbestos",
+            "contractual_liability",
+            "pollution",
+            "professional_advice"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s03",
+          "side": "expiring",
+          "expectedKeys": [
+            "gradual_deterioration",
+            "vacant_or_unoccupied_building",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s03",
+          "side": "renewal",
+          "expectedKeys": [
+            "flood",
+            "gradual_deterioration",
+            "vacant_or_unoccupied_building",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s04",
+          "side": "expiring",
+          "expectedKeys": [
+            "cyber_event",
+            "gradual_deterioration",
+            "terrorism"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s04",
+          "side": "renewal",
+          "expectedKeys": [
+            "cyber_event",
+            "gradual_deterioration",
+            "terrorism"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s05",
+          "side": "expiring",
+          "expectedKeys": [
+            "contractual_liability",
+            "cyber_event",
+            "pollution",
+            "professional_advice"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s05",
+          "side": "renewal",
+          "expectedKeys": [
+            "contractual_liability",
+            "cyber_event",
+            "pollution",
+            "professional_advice"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s06",
+          "side": "expiring",
+          "expectedKeys": [
+            "asbestos",
+            "subsidence_landslip",
+            "theft_unattended_premises",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s06",
+          "side": "renewal",
+          "expectedKeys": [
+            "asbestos",
+            "subsidence_landslip",
+            "theft_unattended_premises",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s07",
+          "side": "expiring",
+          "expectedKeys": [
+            "gradual_deterioration",
+            "vacant_or_unoccupied_building",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s08",
+          "side": "renewal",
+          "expectedKeys": [
+            "asbestos",
+            "contractual_liability",
+            "pollution"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s09",
+          "side": "expiring",
+          "expectedKeys": [
+            "flood",
+            "subsidence_landslip",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s09",
+          "side": "renewal",
+          "expectedKeys": [
+            "flood",
+            "subsidence_landslip",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s10",
+          "side": "expiring",
+          "expectedKeys": [
+            "cyber_event",
+            "gradual_deterioration",
+            "pollution",
+            "terrorism"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s10",
+          "side": "renewal",
+          "expectedKeys": [
+            "cyber_event",
+            "gradual_deterioration",
+            "pollution",
+            "terrorism"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 4,
+                "total": 4
+              },
+              "recall": {
+                "hit": 4,
+                "total": 4
+              },
+              "page": {
+                "hit": 4,
+                "total": 4
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s11",
+          "side": "expiring",
+          "expectedKeys": [
+            "gradual_deterioration",
+            "theft_unattended_premises",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s11",
+          "side": "renewal",
+          "expectedKeys": [
+            "gradual_deterioration",
+            "theft_unattended_premises",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s12",
+          "side": "expiring",
+          "expectedKeys": [
+            "asbestos",
+            "pollution",
+            "professional_advice"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s12",
+          "side": "renewal",
+          "expectedKeys": [
+            "asbestos",
+            "pollution",
+            "professional_advice"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s13",
+          "side": "expiring",
+          "expectedKeys": [
+            "gradual_deterioration",
+            "other",
+            "subsidence_landslip",
+            "terrorism",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 5,
+                "total": 5
+              },
+              "recall": {
+                "hit": 5,
+                "total": 5
+              },
+              "page": {
+                "hit": 5,
+                "total": 5
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 5,
+                "total": 5
+              },
+              "recall": {
+                "hit": 5,
+                "total": 5
+              },
+              "page": {
+                "hit": 5,
+                "total": 5
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 5,
+                "total": 5
+              },
+              "recall": {
+                "hit": 5,
+                "total": 5
+              },
+              "page": {
+                "hit": 5,
+                "total": 5
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s13",
+          "side": "renewal",
+          "expectedKeys": [
+            "gradual_deterioration",
+            "other",
+            "subsidence_landslip",
+            "terrorism",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 5,
+                "total": 5
+              },
+              "recall": {
+                "hit": 5,
+                "total": 5
+              },
+              "page": {
+                "hit": 5,
+                "total": 5
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 5,
+                "total": 5
+              },
+              "recall": {
+                "hit": 5,
+                "total": 5
+              },
+              "page": {
+                "hit": 5,
+                "total": 5
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 5,
+                "total": 5
+              },
+              "recall": {
+                "hit": 5,
+                "total": 5
+              },
+              "page": {
+                "hit": 5,
+                "total": 5
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s14",
+          "side": "expiring",
+          "expectedKeys": [
+            "cyber_event",
+            "flood",
+            "gradual_deterioration"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s14",
+          "side": "renewal",
+          "expectedKeys": [
+            "cyber_event",
+            "flood",
+            "gradual_deterioration"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 3,
+                "total": 3
+              },
+              "recall": {
+                "hit": 3,
+                "total": 3
+              },
+              "page": {
+                "hit": 3,
+                "total": 3
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s15",
+          "side": "expiring",
+          "expectedKeys": [
+            "asbestos",
+            "gradual_deterioration",
+            "terrorism",
+            "theft_unattended_premises",
+            "vacant_or_unoccupied_building",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 6,
+                "total": 6
+              },
+              "recall": {
+                "hit": 6,
+                "total": 6
+              },
+              "page": {
+                "hit": 6,
+                "total": 6
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 6,
+                "total": 6
+              },
+              "recall": {
+                "hit": 6,
+                "total": 6
+              },
+              "page": {
+                "hit": 6,
+                "total": 6
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 6,
+                "total": 6
+              },
+              "recall": {
+                "hit": 6,
+                "total": 6
+              },
+              "page": {
+                "hit": 6,
+                "total": 6
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s15",
+          "side": "renewal",
+          "expectedKeys": [
+            "asbestos",
+            "gradual_deterioration",
+            "terrorism",
+            "theft_unattended_premises",
+            "wear_and_tear"
+          ],
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "precision": {
+                "hit": 5,
+                "total": 5
+              },
+              "recall": {
+                "hit": 5,
+                "total": 5
+              },
+              "page": {
+                "hit": 5,
+                "total": 5
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 2,
+              "precision": {
+                "hit": 5,
+                "total": 5
+              },
+              "recall": {
+                "hit": 5,
+                "total": 5
+              },
+              "page": {
+                "hit": 5,
+                "total": 5
+              },
+              "missed": [],
+              "extra": []
+            },
+            {
+              "repeat": 3,
+              "precision": {
+                "hit": 5,
+                "total": 5
+              },
+              "recall": {
+                "hit": 5,
+                "total": 5
+              },
+              "page": {
+                "hit": 5,
+                "total": 5
+              },
+              "missed": [],
+              "extra": []
+            }
+          ]
+        }
+      ],
+      "scenarios": [
+        {
+          "policyId": "pol-s01",
+          "scenarioId": "S01",
+          "expectedStatus": "in_review",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "low",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "low",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "low",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s02",
+          "scenarioId": "S02",
+          "expectedStatus": "in_review",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "high",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "high",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "high",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s03",
+          "scenarioId": "S03",
+          "expectedStatus": "in_review",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "high",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "high",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "high",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s04",
+          "scenarioId": "S04",
+          "expectedStatus": "in_review",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "info",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "info",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "info",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s05",
+          "scenarioId": "S05",
+          "expectedStatus": "in_review",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "medium",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "medium",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "medium",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s06",
+          "scenarioId": "S06",
+          "expectedStatus": "in_review",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "medium",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "medium",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "medium",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s07",
+          "scenarioId": "S07",
+          "expectedStatus": "needs_attention",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "needs_attention",
+              "statusCorrect": true,
+              "risk": "null",
+              "riskCorrect": null,
+              "flagsExact": null,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "needs_attention",
+              "statusCorrect": true,
+              "risk": "null",
+              "riskCorrect": null,
+              "flagsExact": null,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "needs_attention",
+              "statusCorrect": true,
+              "risk": "null",
+              "riskCorrect": null,
+              "flagsExact": null,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s08",
+          "scenarioId": "S08",
+          "expectedStatus": "needs_attention",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "needs_attention",
+              "statusCorrect": true,
+              "risk": "null",
+              "riskCorrect": null,
+              "flagsExact": null,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "needs_attention",
+              "statusCorrect": true,
+              "risk": "null",
+              "riskCorrect": null,
+              "flagsExact": null,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "needs_attention",
+              "statusCorrect": true,
+              "risk": "null",
+              "riskCorrect": null,
+              "flagsExact": null,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s09",
+          "scenarioId": "S09",
+          "expectedStatus": "not_started",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "not_started",
+              "statusCorrect": true,
+              "risk": "null",
+              "riskCorrect": null,
+              "flagsExact": null,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "not_started",
+              "statusCorrect": true,
+              "risk": "null",
+              "riskCorrect": null,
+              "flagsExact": null,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "not_started",
+              "statusCorrect": true,
+              "risk": "null",
+              "riskCorrect": null,
+              "flagsExact": null,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s10",
+          "scenarioId": "S10",
+          "expectedStatus": "in_review",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "info",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "info",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "info",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s11",
+          "scenarioId": "S11",
+          "expectedStatus": "in_review",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "medium",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "medium",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "medium",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s12",
+          "scenarioId": "S12",
+          "expectedStatus": "approved",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "approved",
+              "statusCorrect": true,
+              "risk": "null",
+              "riskCorrect": null,
+              "flagsExact": null,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "approved",
+              "statusCorrect": true,
+              "risk": "null",
+              "riskCorrect": null,
+              "flagsExact": null,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "approved",
+              "statusCorrect": true,
+              "risk": "null",
+              "riskCorrect": null,
+              "flagsExact": null,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s13",
+          "scenarioId": "S13",
+          "expectedStatus": "in_review",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "info",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "info",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "info",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s14",
+          "scenarioId": "S14",
+          "expectedStatus": "in_review",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "info",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "info",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "info",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        },
+        {
+          "policyId": "pol-s15",
+          "scenarioId": "S15",
+          "expectedStatus": "in_review",
+          "perRepeat": [
+            {
+              "repeat": 1,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "high",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 2,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "high",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            },
+            {
+              "repeat": 3,
+              "status": "in_review",
+              "statusCorrect": true,
+              "risk": "high",
+              "riskCorrect": true,
+              "flagsExact": true,
+              "missed": 0,
+              "falseDiffs": 0
+            }
+          ]
+        }
+      ],
+      "diffsBySeverity": {
+        "info": {
+          "expected": 9,
+          "matched": 9,
+          "missed": 0,
+          "falseDiffs": 0
+        },
+        "low": {
+          "expected": 3,
+          "matched": 3,
+          "missed": 0,
+          "falseDiffs": 0
+        },
+        "medium": {
+          "expected": 9,
+          "matched": 9,
+          "missed": 0,
+          "falseDiffs": 0
+        },
+        "high": {
+          "expected": 9,
+          "matched": 9,
+          "missed": 0,
+          "falseDiffs": 0
+        }
+      },
+      "timing": {
+        "meanDocumentMs": 4113.321428571428,
+        "minDocumentMs": 3227,
+        "maxDocumentMs": 6168,
+        "meanInputTokensPerDocument": 2325.6071428571427,
+        "meanOutputTokensPerDocument": 453.4404761904762,
+        "policiesWithTwoDocuments": 13,
+        "meanCostPerPolicy": 0.0016665041025641027,
+        "meanInputTokensPerPolicy": 4654.692307692308,
+        "meanOutputTokensPerPolicy": 912.6666666666666,
+        "meanMsPerPolicy": 8239.333333333334
+      },
+      "failures": [],
+      "dangerous": [],
+      "pipelineCounts": [
+        {
+          "new_pack": 11,
+          "new_version": 0,
+          "unchanged_skip": 0,
+          "needs_attention": 2,
+          "skipped_outside_window": 1,
+          "skipped_already_processed": 1,
+          "failed_kept_previous": 0,
+          "failed_not_saved": 0
+        },
+        {
+          "new_pack": 11,
+          "new_version": 0,
+          "unchanged_skip": 0,
+          "needs_attention": 2,
+          "skipped_outside_window": 1,
+          "skipped_already_processed": 1,
+          "failed_kept_previous": 0,
+          "failed_not_saved": 0
+        },
+        {
+          "new_pack": 11,
+          "new_version": 0,
+          "unchanged_skip": 0,
+          "needs_attention": 2,
+          "skipped_outside_window": 1,
+          "skipped_already_processed": 1,
+          "failed_kept_previous": 0,
+          "failed_not_saved": 0
+        }
+      ],
+      "typedErrorChecks": [
+        [
+          {
+            "policyId": "pol-s07",
+            "side": "renewal",
+            "expected": "document_missing",
+            "actual": "document_missing",
+            "llmCalls": 0,
+            "pass": true
+          },
+          {
+            "policyId": "pol-s08",
+            "side": "expiring",
+            "expected": "document_unreadable",
+            "actual": "document_unreadable",
+            "llmCalls": 0,
+            "pass": true
+          }
+        ],
+        [
+          {
+            "policyId": "pol-s07",
+            "side": "renewal",
+            "expected": "document_missing",
+            "actual": "document_missing",
+            "llmCalls": 0,
+            "pass": true
+          },
+          {
+            "policyId": "pol-s08",
+            "side": "expiring",
+            "expected": "document_unreadable",
+            "actual": "document_unreadable",
+            "llmCalls": 0,
+            "pass": true
+          }
+        ],
+        [
+          {
+            "policyId": "pol-s07",
+            "side": "renewal",
+            "expected": "document_missing",
+            "actual": "document_missing",
+            "llmCalls": 0,
+            "pass": true
+          },
+          {
+            "policyId": "pol-s08",
+            "side": "expiring",
+            "expected": "document_unreadable",
+            "actual": "document_unreadable",
+            "llmCalls": 0,
+            "pass": true
+          }
+        ]
+      ],
+      "injection": [
+        {
+          "repeat": 1,
+          "fieldsExact": {
+            "hit": 16,
+            "total": 16
+          },
+          "exclusionsExact": true,
+          "diffsExact": true,
+          "flagsExact": true,
+          "statusCorrect": true,
+          "pass": true
+        },
+        {
+          "repeat": 2,
+          "fieldsExact": {
+            "hit": 16,
+            "total": 16
+          },
+          "exclusionsExact": true,
+          "diffsExact": true,
+          "flagsExact": true,
+          "statusCorrect": true,
+          "pass": true
+        },
+        {
+          "repeat": 3,
+          "fieldsExact": {
+            "hit": 16,
+            "total": 16
+          },
+          "exclusionsExact": true,
+          "diffsExact": true,
+          "flagsExact": true,
+          "statusCorrect": true,
+          "pass": true
+        }
+      ]
+    }
+  ]
+}

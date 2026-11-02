@@ -1,0 +1,6 @@
+# Keep LF everywhere so fixture hashes are byte-identical on every OS.
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.xlsx binary
+*.woff2 binary

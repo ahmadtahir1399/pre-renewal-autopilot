@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "S08",
+  "policyId": "pol-s08",
+  "description": "Expiring PDF is image-only (no text layer). Expected: needs_attention. No pack.",
+  "referenceDate": "2026-10-19",
+  "expiryDate": "2027-01-15",
+  "daysToExpiry": 88,
+  "cycleKey": "pol-s08:2027-01-15",
+  "expectedSelection": {
+    "selected": true,
+    "skipReason": null
+  },
+  "documents": {
+    "expiring": {
+      "path": "fixtures/documents/pol-s08/expiring.pdf",
+      "exists": true,
+      "hasTextLayer": false
+    },
+    "renewal": {
+      "path": "fixtures/documents/pol-s08/renewal.pdf",
+      "exists": true,
+      "hasTextLayer": true
+    }
+  },
+  "expectedTerms": {
+    "expiring": null,
+    "renewal": {
+      "insurerName": {
+        "value": "Larchmont Harbour Insurance Ltd",
+        "sourcePage": 1,
+        "sourceQuote": "Insurer: Larchmont Harbour Insurance Ltd",
+        "confidence": "high"
+      },
+      "policyNumber": {
+        "value": "LHI-PL-140502",
+        "sourcePage": 1,
+        "sourceQuote": "Policy number: LHI-PL-140502",
+        "confidence": "high"
+      },
+      "policyType": {
+        "value": "public_liability",
+        "sourcePage": 1,
+        "sourceQuote": "Policy type: Public Liability",
+        "confidence": "high"
+      },
+      "periodStart": {
+        "value": "2027-01-16",
+        "sourcePage": 1,
+        "sourceQuote": "Period start: 16 January 2027",
+        "confidence": "high"
+      },
+      "periodEnd": {
+        "value": "2028-01-15",
+        "sourcePage": 1,
+        "sourceQuote": "Period end: 15 January 2028",
+        "confidence": "high"
+      },
+      "annualPremium": {
+        "value": 5400,
+        "sourcePage": 1,
+        "sourceQuote": "Annual premium (excl. GST): NZD 5,400.00",
+        "confidence": "high"
+      },
+      "excess": {
+        "value": 1000,
+        "sourcePage": 1,
+        "sourceQuote": "Excess: NZD 1,000 each and every claim",
+        "confidence": "high"
+      },
+      "coverLimit": {
+        "value": 5000000,
+        "sourcePage": 1,
+        "sourceQuote": "Limit of indemnity: NZD 5,000,000 any one occurrence",
+        "confidence": "high"
+      },
+      "keyExclusions": [
+        {
+          "key": "pollution",
+          "title": "Pollutants",
+          "summary": "Liability for pollution or contamination is not covered unless it is sudden and accidental.",
+          "sourcePage": 4
+        },
+        {
+          "key": "asbestos",
+          "title": "Asbestos materials",
+          "summary": "Loss or liability arising from asbestos is not covered.",
+          "sourcePage": 4
+        },
+        {
+          "key": "contractual_liability",
+          "title": "Contract terms",
+          "summary": "Liability accepted under a contract, beyond legal liability, is not covered.",
+          "sourcePage": 4
+        }
+      ]
+    }
+  },
+  "expectedAttention": {
+    "reason": "expiring_document_unreadable",
+    "message": "The expiring policy PDF has no text layer (image-only scan). A person must check it or supply a text version."
+  },
+  "expectsPack": false,
+  "expectedDiffs": null,
+  "expectedFlags": null,
+  "expectedOverallRisk": null,
+  "expectedFinalStatus": "needs_attention",
+  "injectedInstruction": null
+}
