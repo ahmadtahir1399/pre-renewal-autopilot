@@ -233,6 +233,6 @@ reports/       evaluation reports (only the final live report is committed)
 
 ## Credits
 
-Built by Muhammad Ahmad Tahir as a portfolio concept, with help from Claude Code. Libraries: Zod, ExcelJS,
+Built by Muhammad Ahmad Tahir as a portfolio concept. Libraries: Zod, ExcelJS,
 pdf.js (`pdfjs-dist`), pdf-lib, the OpenAI Node SDK, grammY, Vitest, tsx and Biome. Node's built-in SQLite
 module stores the state.
